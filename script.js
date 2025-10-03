@@ -2,14 +2,14 @@ const LOGINS = [
   { username: "admjao", password: "am90YXAxMjM=" },
   { username: "pedro", password: "UGVkcm9IMTIz" }, //PedroH123
   { username: "luiz", password: "THVpejEyMw==" }, //Luiz123
-  { username: "nome2",  password: "ZXVtdWRvMTIz" }, //
-  { username: "nome3", password: "ZXVtdWRvMTIz" }, //
-  { username: "nome4", password: "ZXVtdWRvMTIz" },    //
-  { username: "nome5", password: "ZXVtdWRvMTIz" },    //
-  { username: "nome6", password: "ZXVtdWRvMTIz" },  //
-  { username: "nome7", password: "ZXVtdWRvMTIz" },  //
-  { username: "nome8", password: "ZXVtdWRvMTIz" },  //
-  { username: "nome9", password: "ZXVtdWRvMTIz" }   //
+  { username: "nome2",  password: "ZXVtdWRvMTIz" },
+  { username: "nome3", password: "ZXVtdWRvMTIz" },
+  { username: "nome4", password: "ZXVtdWRvMTIz" },
+  { username: "nome5", password: "ZXVtdWRvMTIz" },
+  { username: "nome6", password: "ZXVtdWRvMTIz" },
+  { username: "nome7", password: "ZXVtdWRvMTIz" },
+  { username: "nome8", password: "ZXVtdWRvMTIz" },
+  { username: "nome9", password: "ZXVtdWRvMTIz" }
 ];
 
 const SESSION_KEY = "xfut_session";
@@ -22,8 +22,7 @@ const jogos = [
     opcoes: [
       { nome: "PREVISÃO DE TERMINO: 04/10 as 13:00", url: "" },
     ]
-  }
-];
+  },
 {
   nome: "Jogos do Brasileirão (PROCURE AONDE VAI PASSAR O JOGO QUE TE INTERESSA NO GOOGLE)",
   inicio: null,
@@ -167,11 +166,11 @@ function iniciarContagemJogo(jogo, idx) {
       }
     } else if (diff > -TEMPO_JOGO_MS) {
       const tempoRestante = TEMPO_JOGO_MS + diff;
-    if (tempoRestante > 0) {
-      statusArea.innerHTML = `<span class="status ao-vivo-agora">🟢 AO VIVO AGORA</span>`;
-    } else {
-      statusArea.innerHTML = `<span class="status encerrado">Jogo encerrado</span>`;
-}
+      if (tempoRestante > 0) {
+        statusArea.innerHTML = `<span class="status ao-vivo-agora">🟢 AO VIVO AGORA</span>`;
+      } else {
+        statusArea.innerHTML = `<span class="status encerrado">Jogo encerrado</span>`;
+      }
     } else {
       statusArea.innerHTML = `<span class="status encerrado">Jogo encerrado</span>`;
     }
@@ -193,6 +192,15 @@ window.onload = function() {
       showLogin();
     }
   });
+
+  // Faz login ao dar ENTER no formulário
+  const loginForm = document.getElementById('login-form');
+  if (loginForm) {
+    loginForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      login();
+    });
+  }
 };
 
 window.addEventListener("beforeunload", () => {
