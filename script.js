@@ -22,29 +22,28 @@ const jogos = [
     opcoes: [
       { nome: "PREVISÃO DE TERMINO: 04/10 as 13:00", url: "" },
     ]
-  }
-];
-{
-  nome: "Jogos do Brasileirão (PROCURE AONDE VAI PASSAR O JOGO QUE TE INTERESSA NO GOOGLE)",
-  inicio: null,
-  opcoes: [
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" },
-    { nome: ".", url: "" }
-  ]
-},
+  },
+  {
+    nome: "Jogos do Brasileirão (PROCURE AONDE VAI PASSAR O JOGO QUE TE INTERESSA NO GOOGLE)",
+    inicio: null,
+    opcoes: [
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" },
+      { nome: ".", url: "" }
+    ]
+  },
   {
     nome: "Canais Fixos",
     inicio: null,
@@ -167,11 +166,11 @@ function iniciarContagemJogo(jogo, idx) {
       }
     } else if (diff > -TEMPO_JOGO_MS) {
       const tempoRestante = TEMPO_JOGO_MS + diff;
-    if (tempoRestante > 0) {
-      statusArea.innerHTML = `<span class="status ao-vivo-agora">🟢 AO VIVO AGORA</span>`;
-    } else {
-      statusArea.innerHTML = `<span class="status encerrado">Jogo encerrado</span>`;
-}
+      if (tempoRestante > 0) {
+        statusArea.innerHTML = `<span class="status ao-vivo-agora">🟢 AO VIVO AGORA</span>`;
+      } else {
+        statusArea.innerHTML = `<span class="status encerrado">Jogo encerrado</span>`;
+      }
     } else {
       statusArea.innerHTML = `<span class="status encerrado">Jogo encerrado</span>`;
     }
@@ -213,6 +212,7 @@ function handleSearch() {
 
 function setupRodapeScroll() {
   const rodape = document.querySelector('.rodape-moderno');
+  if (!rodape) return;
   function verificarRodape() {
     // Só ativa se a tela da lista de jogos estiver visível
     if (document.getElementById("main-container").style.display === "block") {
@@ -236,8 +236,10 @@ function showLogin() {
   document.getElementById("login-container").style.display = "block";
   localStorage.removeItem(SESSION_KEY);
   const rodape = document.querySelector('.rodape-moderno');
-  rodape.classList.add('rodape-fixa');
-  rodape.style.display = "block";
+  if (rodape) {
+    rodape.classList.add('rodape-fixa');
+    rodape.style.display = "block";
+  }
 }
 
 function showMain() {
@@ -246,8 +248,10 @@ function showMain() {
   document.getElementById("notificacao-jogo").style.display = "block";
   renderJogos();
   const rodape = document.querySelector('.rodape-moderno');
-  rodape.classList.remove('rodape-fixa');
-  setupRodapeScroll();
+  if (rodape) {
+    rodape.classList.remove('rodape-fixa');
+    setupRodapeScroll();
+  }
 }
 
 // -----------------------------------------------------
