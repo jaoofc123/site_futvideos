@@ -1,0 +1,14 @@
+<IfModule mod_headers.c>
+  Header set Content-Security-Policy "default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; sandbox"  Header set X-Frame-Options "DENY"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "no-referrer-when-downgrade"
+  Header set Permissions-Policy "geolocation=(), microphone=()"
+  Header set X-Frame-Options "DENY"
+</IfModule>
+
+<FilesMatch "\.(htaccess|htpasswd|env|git|gitignore|json|lock|md|ini|log|sh|bak|yml)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
