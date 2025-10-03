@@ -1,12 +1,12 @@
 const LOGINS = [
-  { username: "admjao", password: "SlAxMjMhMTIz" },
-  { username: "pedro", password: "cGVkcm9oZW5yaXF1ZTIwMTI=" }, //
-  { username: "lucca", password: "bHVjY2FtZWxvMDAwMQ==" }, //
-  { username: "jose", password: "am9zZXVmYw==" }, //
-  { username: "jacintopinto", password: "bHVpenNhbmp1bGlhbm8xMg==" }, //
-  { username: "guerra", password: "Z3VlcnJhMjAyNQ==" },    //
-  { username: "samuel", password: "emFuYXR0YTIwMjU=" },    //
-  { username: "isabella", password: "YmVsbGEyMDI1NQ==" },  //
+  { username: "admjao", password: "ZXVtdWRvMTIz" },
+  { username: "pedro", password: "ZXVtdWRvMTIz" }, //
+  { username: "lucca", password: "ZXVtdWRvMTIz" }, //
+  { username: "luiz",  password: "ZXVtdWRvMTIz" }, //
+  { username: "nome6", password: "ZXVtdWRvMTIz" }, //
+  { username: "nome6", password: "ZXVtdWRvMTIz" },    //
+  { username: "nome6", password: "ZXVtdWRvMTIz" },    //
+  { username: "nome6", password: "ZXVtdWRvMTIz" },  //
   { username: "nome7", password: "ZXVtdWRvMTIz" },  //
   { username: "nome8", password: "ZXVtdWRvMTIz" },  //
   { username: "nome9", password: "ZXVtdWRvMTIz" }   //
