@@ -39,6 +39,16 @@
     <button onclick="logout()" class="logout-btn">Sair</button>
   </div>
   <script src="script.js"></script>
+  <script>
+    // Adiciona ENTER no campo de senha para logar
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("password").addEventListener("keydown", function(e) {
+        if (e.key === "Enter") {
+          login();
+        }
+      });
+    });
+  </script>
   <div id="notificacao-jogo" class="notificacao-jogo">
     Ao clicar na opção de streaming (1) ou (2), você será direcionado para o jogo. <br>
     Porém, tudo o que abrir ao clicar na aba do jogo deve ser fechado, pois são apenas propagandas.
