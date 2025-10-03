@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Xfut</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-container" class="center-box">
+    <div id="user-notification" class="user-notification">
+      <span>Assine o plano pelo Whatsapp <a href="https://wa.me/5514991595957" target="_blank">(14) 99159-5957</a>
+  ou pelo Instagram <a href="https://instagram.com/avante.palmeirasx" target="_blank">@avante.palmeirasx</a>.</span>
+      <button class="close-notification" onclick="closeNotification()">×</button>
+    </div>
+    <div id="login-notice" class="login-notice">
+      Assista aos jogos mais importantes, como o Super Mundial de Clubes, por apenas <b>R$5,50/mês!</b> Futebol pra você e pra todo mundo!
+    </div>
+    <h2>Login Xfut</h2>
+    <input type="text" id="username" placeholder="Usuário" autocomplete="username">
+    <input type="password" id="password" placeholder="Senha" autocomplete="current-password">
+    <button onclick="login()">Entrar</button>
+    <p id="login-msg" class="error"></p>
+  </div>
+  <div id="main-container" class="center-box" style="display: none;">
+    <h2>Lista de Jogos do Xfut</h2>
+    <div class="search-area">
+      <input 
+        type="text" 
+        id="search-input" 
+        placeholder="Pesquisar jogos..." 
+        oninput="handleSearch()" 
+        onkeydown="if(event.key === 'Enter'){ handleSearch(); }"
+      >
+      <button onclick="handleSearch()" id="search-btn">
+        Pesquisar
+      </button>
+    </div>
+    <div id="games-list"></div>
+    <button onclick="logout()" class="logout-btn">Sair</button>
+  </div>
+  <script src="script.js"></script>
+  <div id="notificacao-jogo" class="notificacao-jogo">
+    Ao clicar na opção de streaming (1) ou (2), você será direcionado para o jogo. <br>
+    Porém, tudo o que abrir ao clicar na aba do jogo deve ser fechado, pois são apenas propagandas.
+  </div>
+</body>
+</html>
