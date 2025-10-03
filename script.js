@@ -16,26 +16,44 @@ const SESSION_KEY = "xfut_session";
 
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
+  {
+    nome: "ESTAMOS EM MANUTENÇÃO",
+    inicio: null,
+    opcoes: [
+      { nome: "PREVISÃO DE TERMINO: 04/10 as 13:00", url: "" },
+    ]
+  }
+];
 {
-  nome: "Jogos do Super Mundial",
+  nome: "Jogos do Brasileirão (PROCURE AONDE VAI PASSAR O JOGO QUE TE INTERESSA NO GOOGLE)",
   inicio: null,
   opcoes: [
-    { nome: "Opção 1", url: "https://nossoplayeronlinehd.live/tv/sportv" },
-    { nome: "Opção 2", url: "https://nossoplayeronlinehd.live/tv/caze1" },
-    { nome: "Opção 3", url: "https://reidoscanais.vip/embed/?id=sportv" },
-    { nome: "Opção 4", url: "https://embedcanaistv.com/sportv/" },
-    { nome: "Opção 5", url: "https://www.youtube.com/@CazeTV" }
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" },
+    { nome: ".", url: "" }
   ]
 },
   {
     nome: "Canais Fixos",
     inicio: null,
     opcoes: [
-      { nome: "UFC 1", url: "https://nossoplayeronlinehd.com/tv/ufcfightpass" },
-      { nome: "UFC 2", url: "https://reidoscanais.vip/embed/?id=ufcfightpass" },
-      { nome: "Globo Sp", url: "https://reidoscanais.vip/embed/?id=globosp-globosaopaulo" },
-      { nome: "SBT", url: "https://nossoplayeronlinehd.lat/tv/sbt" },
-      { nome: "Record Tv", url: "https://nossoplayeronlinehd.lat/tv/record" }
+      { nome: "UFC 1", url: "" },
+      { nome: "UFC 2", url: "" },
+      { nome: "Globo Sp", url: "" },
+      { nome: "SBT", url: "" },
+      { nome: "Record Tv", url: "" },
     ]
   }
 ];
