@@ -1,11 +1,11 @@
 const LOGINS = [
-  { username: "admjao", password: "ZXVtdWRvMTIz" },
-  { username: "pedro", password: "ZXVtdWRvMTIz" }, //
-  { username: "lucca", password: "ZXVtdWRvMTIz" }, //
-  { username: "luiz",  password: "ZXVtdWRvMTIz" }, //
-  { username: "nome6", password: "ZXVtdWRvMTIz" }, //
-  { username: "nome6", password: "ZXVtdWRvMTIz" },    //
-  { username: "nome6", password: "ZXVtdWRvMTIz" },    //
+  { username: "admjao", password: "am90YXAxMjM=" },
+  { username: "pedro", password: "UGVkcm9IMTIz" }, //PedroH123
+  { username: "luiz", password: "THVpejEyMw==" }, //Luiz123
+  { username: "nome2",  password: "ZXVtdWRvMTIz" }, //
+  { username: "nome3", password: "ZXVtdWRvMTIz" }, //
+  { username: "nome4", password: "ZXVtdWRvMTIz" },    //
+  { username: "nome5", password: "ZXVtdWRvMTIz" },    //
   { username: "nome6", password: "ZXVtdWRvMTIz" },  //
   { username: "nome7", password: "ZXVtdWRvMTIz" },  //
   { username: "nome8", password: "ZXVtdWRvMTIz" },  //
