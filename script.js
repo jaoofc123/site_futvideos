@@ -20,11 +20,11 @@ const jogos = [
     nome: "ESTAMOS EM MANUTENÇÃO",
     inicio: null,
     opcoes: [
-      { nome: "PREVISÃO DE TERMINO: 04/10 as 13:00", url: "" },
+      { nome: "PREVISÃO DE TERMINO: 07/10. (MAIORIA JA FOI FEITO)", url: "" },
     ]
   },
   {
-    nome: "Jogos do Brasileirão (PROCURE AONDE VAI PASSAR O JOGO QUE TE INTERESSA NO GOOGLE)",
+    nome: "Jogos do Brasileirão (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
     inicio: null,
     opcoes: [
       { nome: "SporTV", url: "https://embedtv-4.icu/sportv" },
@@ -39,7 +39,10 @@ const jogos = [
       { nome: "Premiere 6", url: "https://embedtv-4.icu/premiere6" },
       { nome: "Premiere 7", url: "https://embedtv-4.icu/premiere7" },
       { nome: "Premiere 8", url: "https://embedtv-4.icu/premiere8" },
-      { nome: ".", url: "" },
+      { nome: "Premiere", url: "https://embedtv-4.icu/primevideo" },
+      { nome: "Primere 2", url: "https://embedtv-4.icu/primevideo2" },
+      { nome: "Record TV", url: "https://embedtv-4.icu/record" },
+      { nome: "GloboPlay", url: "https://globoplay.globo.com/" },
       { nome: "GETV", url: "https://www.youtube.com/geglobo" },
       { nome: "CazéTV", url: "https://www.youtube.com/cazetv" }
     ]
@@ -48,11 +51,11 @@ const jogos = [
     nome: "Canais Fixos",
     inicio: null,
     opcoes: [
-      { nome: "UFC 1", url: "" },
-      { nome: "UFC 2", url: "" },
-      { nome: "Globo Sp", url: "" },
-      { nome: "SBT", url: "" },
-      { nome: "Record Tv", url: "" },
+      { nome: "UFC", url: "https://embedtv-4.icu/ufcfightpass" },
+      { nome: "Globo Sp", url: "https://embedtv-4.icu/globosp" },
+      { nome: "Globo Rj", url: "https://embedtv-4.icu/globorj" },
+      { nome: "SBT", url: "https://embedtv-4.icu/sbt" },
+      { nome: "Record TV", url: "https://embedtv-4.icu/record" },
     ]
   }
 ];
