@@ -27,21 +27,21 @@ const jogos = [
     nome: "Jogos do Brasileirão (PROCURE AONDE VAI PASSAR O JOGO QUE TE INTERESSA NO GOOGLE)",
     inicio: null,
     opcoes: [
+      { nome: "SporTV", url: "https://rdcanais.top/embed/?id=sportv" },
+      { nome: "SporTV", url: "https://embedtv-4.icu/sportv" },
+      { nome: "SporTV 2", url: "https://rdcanais.top/sportv2" },
+      { nome: "SporTV 2", url: "https://embedtv-4.icu/sportv2" },
+      { nome: "SporTV 3", url: "https://rdcanais.top/sportv3" },
+      { nome: "SporTV 3", url: "https://embedtv-4.icu/sportv3" },
+      { nome: "SporTV 4", url: "https://rdcanais.top/sportv4" },
+      { nome: "SporTV 4", url: "https://embedtv-4.icu/sportv4" },
       { nome: ".", url: "" },
       { nome: ".", url: "" },
       { nome: ".", url: "" },
       { nome: ".", url: "" },
       { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" },
-      { nome: ".", url: "" }
+      { nome: "GETV", url: "https://www.youtube.com/geglobo" },
+      { nome: "CazéTV", url: "https://www.youtube.com/cazetv" }
     ]
   },
   {
