@@ -23,6 +23,13 @@ const jogos = [
       { nome: "PREVISÃO DE TERMINO: 06/10. (MAIORIA JA FOI FEITO)", url: "" },
     ]
   },
+    {
+    nome: "Jogo Teste", // <--- nome do seu jogo
+    inicio: "2024-10-04T22:48:00", // <--- data e hora configurada
+    opcoes: [
+      { nome: "Canal Exemplo", url: "https://embedtv-4.icu/sportv" }
+    ]
+  },
   {
     nome: "Jogos do Brasileirão (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
     inicio: null,
