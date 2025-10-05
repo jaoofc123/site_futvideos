@@ -1,3 +1,4 @@
+/* XFut - Opção 2: Preto + Verde Limão + Amarelo Solar */
 body {
   font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
   background: linear-gradient(120deg, #141414 0%, #181818 100%);
@@ -8,7 +9,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Central container */
 .center-box {
   background: #181818;
   padding: 36px 32px;
@@ -19,11 +19,10 @@ body {
   border-radius: 14px;
   box-shadow: 0 8px 32px #000a;
   text-align: center;
-  border: 2px solid #21c95b77;
+  border: 2px solid #d0ff1477;
   transition: max-width 0.3s, padding 0.3s, font-size 0.3s;
 }
 
-/* Inputs */
 input[type="text"], input[type="password"] {
   width: 92%;
   padding: 12px;
@@ -31,17 +30,16 @@ input[type="text"], input[type="password"] {
   border: none;
   border-radius: 7px;
   font-size: 1em;
-  background: #232b22;
-  color: #f0fff0;
-  box-shadow: 0 2px 10px #21c95b22;
+  background: #212911;
+  color: #f2ffe0;
+  box-shadow: 0 2px 10px #d0ff1422;
   transition: background 0.2s;
 }
 input[type="text"]:focus, input[type="password"]:focus {
-  background: #161d16;
-  outline: 2px solid #21c95b;
+  background: #1a1e14;
+  outline: 2px solid #d0ff14;
 }
 
-/* Área de busca */
 .search-area {
   display: flex;
   gap: 8px;
@@ -52,24 +50,23 @@ input[type="text"]:focus, input[type="password"]:focus {
   padding: 8px;
   border-radius: 6px;
   border: none;
-  background: #232b22;
-  color: #f0fff0;
+  background: #212911;
+  color: #f2ffe0;
 }
 #search-btn {
   padding: 8px 16px;
   border-radius: 6px;
-  background: linear-gradient(90deg, #21c95b 60%, #3a3a3a 100%);
+  background: linear-gradient(90deg, #d0ff14 60%, #ffe564 100%);
   color: #181818;
   border: none;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0 2px 8px #21c95b22;
+  box-shadow: 0 2px 8px #ffe56422;
   transition: background 0.2s, color 0.2s;
 }
 
-/* Botões */
 button {
-  background: linear-gradient(90deg, #21c95b 60%, #3a3a3a 100%);
+  background: linear-gradient(90deg, #d0ff14 60%, #ffe564 100%);
   color: #181818;
   padding: 12px 28px;
   margin: 14px 0;
@@ -78,37 +75,34 @@ button {
   font-size: 1em;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 2px 10px #21c95b22;
+  box-shadow: 0 2px 10px #ffe56422;
   transition: background 0.2s, color 0.2s;
 }
 button.logout-btn {
-  background: linear-gradient(90deg, #3a3a3a 60%, #141414 100%);
-  color: #21c95b;
+  background: linear-gradient(90deg, #ffe564 60%, #141414 100%);
+  color: #d0ff14;
 }
 button:hover,
 #search-btn:hover {
   opacity: 0.97;
-  filter: brightness(1.07);
+  filter: brightness(1.08);
 }
 
-/* Títulos */
 h2 {
   margin-top: 0;
-  color: #21c95b;
+  color: #d0ff14;
   text-shadow: 0 2px 8px #0006;
 }
 
-/* Bloco de jogos */
 .game-block {
-  background: linear-gradient(90deg, #181818 0%, #232b22 100%);
+  background: linear-gradient(90deg, #181818 0%, #212911 100%);
   margin: 20px 0 26px 0;
   padding: 18px;
   border-radius: 10px;
-  border-left: 4px solid #21c95b;
-  box-shadow: 0 2px 14px #1e462a60;
+  border-left: 4px solid #d0ff14;
+  box-shadow: 0 2px 14px #ffe56460;
 }
 
-/* Opções */
 .opcoes {
   margin-top: 11px;
   display: flex;
@@ -118,63 +112,59 @@ h2 {
 }
 .opcao-link {
   display: inline-block;
-  background: #232b22;
-  color: #21c95b;
+  background: #212911;
+  color: #d0ff14;
   text-decoration: none;
   padding: 8px 18px;
   border-radius: 6px;
   transition: background 0.2s, color 0.2s;
   font-weight: bold;
-  border: 1px solid #21c95b44;
-  box-shadow: 0 2px 6px #21c95b11;
+  border: 1px solid #d0ff1444;
+  box-shadow: 0 2px 6px #d0ff1411;
 }
 .opcao-link:hover {
-  background: #21c95b;
+  background: #d0ff14;
   color: #181818;
-  border: 1px solid #21c95b;
+  border: 1px solid #d0ff14;
 }
 
-/* Erro */
 .error {
-  color: #e74c3c;
+  color: #ff2d55;
   font-size: 1.01em;
 }
 
-/* Notificação de login */
 .login-notice {
-  background: linear-gradient(90deg, #21c95b 60%, #e0ffe0 100%);
+  background: linear-gradient(90deg, #d0ff14 60%, #ffe564 100%);
   color: #181818;
   padding: 18px 14px;
   border-radius: 12px;
   margin-bottom: 20px;
   font-size: 1.08em;
   font-weight: bold;
-  box-shadow: 0 2px 14px #21c95b22;
+  box-shadow: 0 2px 14px #ffe56422;
   text-align: center;
   animation: fadein 1s;
-  border: 2px solid #21c95b88;
+  border: 2px solid #d0ff1488;
 }
 
-/* Animação */
 @keyframes fadein {
   from { opacity: 0; transform: translateY(-20px);}
   to   { opacity: 1; transform: translateY(0);}
 }
 
-/* Notificação ao usuário */
 .user-notification {
-  background: #232b22;
-  color: #21c95b;
+  background: #212911;
+  color: #d0ff14;
   padding: 16px 12px;
   border-radius: 10px;
   margin-bottom: 20px;
   font-size: 1.07em;
   font-weight: bold;
-  box-shadow: 0 2px 10px #21c95b22;
+  box-shadow: 0 2px 10px #d0ff1422;
   text-align: center;
   position: relative;
   animation: fadein 0.7s;
-  border: 2px solid #21c95b44;
+  border: 2px solid #d0ff1444;
 }
 
 .close-notification {
@@ -184,40 +174,39 @@ h2 {
   background: transparent;
   border: none;
   font-size: 1.2em;
-  color: #21c95bcc;
+  color: #d0ff14cc;
   cursor: pointer;
   font-weight: bold;
   transition: color 0.2s;
 }
 .close-notification:hover {
-  color: #e74c3c;
+  color: #ff2d55;
 }
 
-/* Status */
 .status-area {
   margin-bottom: 12px;
   font-size: 1.08em;
   font-weight: bold;
 }
 .status.countdown {
-  color: #21c95b;
+  color: #d0ff14;
 }
 .status.ao-vivo-agora {
   color: #181818;
-  background: #21c95b;
+  background: #d0ff14;
   padding: 3px 12px;
   border-radius: 7px;
   font-weight: 600;
 }
 .status.ao-vivo-instant {
   color: #181818;
-  background: #e0ffe0;
+  background: #ffe564;
   padding: 3px 10px;
   border-radius: 7px;
-  border: 1px solid #21c95b;
+  border: 1px solid #d0ff14;
 }
 .status.encerrado {
-  color: #e74c3c;
+  color: #ff2d55;
 }
 .timer {
   margin-left: 8px;
@@ -225,59 +214,56 @@ h2 {
   font-size: 1.03em;
 }
 
-/* Notificação fixa */
 .notificacao-jogo {
   position: fixed;
   top: 20px;
   right: 20px;
-  background: #232b22;
+  background: #212911;
   color: #f5f5f5;
   padding: 16px 24px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px #21c95b22;
+  box-shadow: 0 4px 12px #d0ff1422;
   z-index: 9999;
   max-width: 320px;
   font-size: 1em;
-  border: 2px solid #21c95b99;
+  border: 2px solid #d0ff1499;
 }
 
-/* ===== Rodapé Moderno ===== */
 .rodape-moderno {
   width: 100vw;
-  background: linear-gradient(90deg, #141414 0%, #232b22 100%);
-  color: #21c95b;
+  background: linear-gradient(90deg, #141414 0%, #212911 100%);
+  color: #d0ff14;
   text-align: center;
   padding: 22px 10px;
   font-size: 1.13rem;
   box-shadow: 0 -4px 24px #1818182e;
   letter-spacing: 0.7px;
-  border-top: 3px solid #21c95b;
+  border-top: 3px solid #d0ff14;
   position: static;
   left: unset;
   bottom: unset;
   z-index: unset;
   font-family: inherit;
   transition: background 0.4s, color 0.4s;
-  text-shadow: 0 1px 8px #111, 0 0 2px #21c95b44;
+  text-shadow: 0 1px 8px #111, 0 0 2px #d0ff1444;
 }
 .rodape-moderno a {
-  color: #f5f5f5;
-  background: linear-gradient(90deg,#21c95b 40%,#3a3a3a 100%);
+  color: #181818;
+  background: linear-gradient(90deg,#d0ff14 40%,#ffe564 100%);
   padding: 3px 7px;
   margin: 0 2px;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
-  box-shadow: 0 1px 3px #21c95b22;
+  box-shadow: 0 1px 3px #ffe56422;
   transition: background 0.2s, color 0.2s;
 }
 .rodape-moderno a:hover {
   color: #141414;
-  background: linear-gradient(90deg,#e0ffe0 60%,#21c95b 100%);
+  background: linear-gradient(90deg,#ffe564 60%,#d0ff14 100%);
   text-shadow: none;
 }
 
-/* NOVA CLASSE para rodapé fixo (login) */
 .rodape-fixa {
   position: fixed !important;
   left: 0;
@@ -286,7 +272,6 @@ h2 {
   width: 100vw;
 }
 
-/* ===== Responsividade ===== */
 @media (max-width: 600px) {
   .center-box {
     padding: 18px 2vw;
@@ -329,7 +314,6 @@ h2 {
   }
 }
 
-/* Telas MUITO grandes (TV, etc) */
 @media (min-width: 1200px) {
   .center-box {
     max-width: 600px;
