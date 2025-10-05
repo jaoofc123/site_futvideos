@@ -1,3 +1,4 @@
+/* XFut - Opção 2: Preto + Verde Limão + Amarelo Solar - Atualizado (botão Sair igual ao Entrar) */
 body {
   font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
   background: linear-gradient(120deg, #141414 0%, #181818 100%);
@@ -64,7 +65,8 @@ input[type="text"]:focus, input[type="password"]:focus {
   transition: background 0.2s, color 0.2s;
 }
 
-button {
+button,
+button.logout-btn {
   background: linear-gradient(90deg, #d0ff14 60%, #ffe564 100%);
   color: #181818;
   padding: 12px 28px;
@@ -77,11 +79,8 @@ button {
   box-shadow: 0 2px 10px #ffe56422;
   transition: background 0.2s, color 0.2s;
 }
-button.logout-btn {
-  background: linear-gradient(90deg, #ffe564 60%, #141414 100%);
-  color: #d0ff14;
-}
 button:hover,
+button.logout-btn:hover,
 #search-btn:hover {
   opacity: 0.97;
   filter: brightness(1.08);
@@ -303,7 +302,7 @@ h2 {
     width: 98%;
     font-size: 1em;
   }
-  button, .opcao-link, #search-btn {
+  button, .opcao-link, #search-btn, button.logout-btn {
     font-size: 0.98em;
     padding: 10px 12px;
   }
