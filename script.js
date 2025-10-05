@@ -25,7 +25,7 @@ const jogos = [
   },
     {
     nome: "Jogo Teste", // <--- nome do seu jogo
-    inicio: "2024-10-04T22:48:00", // <--- data e hora configurada
+    inicio: "2025-10-04T22:48:00", // <--- data e hora configurada
     opcoes: [
       { nome: "Canal Exemplo", url: "https://embedtv-4.icu/sportv" }
     ]
