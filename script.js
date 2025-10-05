@@ -17,12 +17,6 @@ const SESSION_KEY = "xfut_session";
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
   {
-    nome: "*Manutenção TERMINADA*",
-    inicio: null, 
-    opcoes: [
-    ]
-  },
-  {
     nome: "Jogos do Brasileirão (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
     inicio: null,
     opcoes: [
