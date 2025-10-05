@@ -18,16 +18,8 @@ const SESSION_KEY = "xfut_session";
 const jogos = [
   {
     nome: "ESTAMOS EM MANUTENÇÃO",
-    inicio: "2025-10-06T13:00:00", 
+    inicio: null, 
     opcoes: [
-      { nome: "PREVISÃO DE TERMINO: 06/10. (MAIORIA JA FOI FEITO)", url: "" },
-    ]
-  },
-    {
-    nome: "Jogo Teste", // <--- nome do seu jogo
-    inicio: "2025-10-04T22:53:00", // <--- data e hora configurada
-    opcoes: [
-      { nome: "Canal Exemplo", url: "https://embedtv-4.icu/sportv" }
     ]
   },
   {
