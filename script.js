@@ -17,7 +17,7 @@ const SESSION_KEY = "xfut_session";
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
   {
-    nome: "ESTAMOS EM MANUTENÇÃO",
+    nome: "*Manutenção TERMINADA*",
     inicio: null, 
     opcoes: [
     ]
@@ -38,14 +38,14 @@ const jogos = [
       { nome: "Premiere 6", url: "https://embedtv-4.icu/premiere6" },
       { nome: "Premiere 7", url: "https://embedtv-4.icu/premiere7" },
       { nome: "Premiere 8", url: "https://embedtv-4.icu/premiere8" },
-      { nome: "Premiere", url: "https://embedtv-4.icu/primevideo" },
-      { nome: "Primere 2", url: "https://embedtv-4.icu/primevideo2" },
       { nome: "ESPN", url: "https://embedtv-4.icu/espn" },
       { nome: "ESPN 2", url: "https://embedtv-4.icu/espn2" },
       { nome: "ESPN 3", url: "https://embedtv-4.icu/espn3" },
       { nome: "ESPN 4", url: "https://embedtv-4.icu/espn4" },
       { nome: "ESPN 5", url: "https://embedtv-4.icu/espn5" },
       { nome: "ESPN 6", url: "https://embedtv-4.icu/espn6" },
+      { nome: "Prime Video", url: "https://embedtv-4.icu/primevideo" },
+      { nome: "Prime Video 2", url: "https://embedtv-4.icu/primevideo2" },
       { nome: "Record TV", url: "https://embedtv-4.icu/record" },
       { nome: "GloboPlay", url: "https://globoplay.globo.com/" },
       { nome: "GETV", url: "https://www.youtube.com/geglobo" },
@@ -57,8 +57,8 @@ const jogos = [
     inicio: null,
     opcoes: [
       { nome: "UFC", url: "https://embedtv-4.icu/ufcfightpass" },
-      { nome: "Globo Sp", url: "https://embedtv-4.icu/globosp" },
-      { nome: "Globo Rj", url: "https://embedtv-4.icu/globorj" },
+      { nome: "Globo SP", url: "https://embedtv-4.icu/globosp" },
+      { nome: "Globo RJ", url: "https://embedtv-4.icu/globorj" },
       { nome: "SBT", url: "https://embedtv-4.icu/sbt" },
       { nome: "Record TV", url: "https://embedtv-4.icu/record" },
     ]
