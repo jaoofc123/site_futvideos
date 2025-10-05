@@ -20,7 +20,7 @@ const jogos = [
     nome: "ESTAMOS EM MANUTENÇÃO",
     inicio: null,
     opcoes: [
-      { nome: "PREVISÃO DE TERMINO: 07/10. (MAIORIA JA FOI FEITO)", url: "" },
+      { nome: "PREVISÃO DE TERMINO: 06/10. (MAIORIA JA FOI FEITO)", url: "" },
     ]
   },
   {
