@@ -16,6 +16,15 @@ const SESSION_KEY = "xfut_session";
 
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
+    {
+    nome: "Jogos da CHAMPIONS LEAGUE (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
+    inicio: null,
+    opcoes: [
+      { nome: "SBT", url: "a" },
+      { nome: "TNT", url: "a" },
+      { nome: "HBO MAX", url: "a" }
+    ]
+  },
   {
     nome: "Jogos do Brasileirão (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
     inicio: null,
