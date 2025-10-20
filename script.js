@@ -20,9 +20,9 @@ const jogos = [
     nome: "Jogos da CHAMPIONS LEAGUE (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
     inicio: null,
     opcoes: [
-      { nome: "SBT", url: "a" },
-      { nome: "TNT", url: "a" },
-      { nome: "HBO MAX", url: "a" }
+      { nome: "SBT", url: "https://embedtv-4.icu/sbt" },
+      { nome: "TNT", url: "https://embedtv-4.icu/tnt" },
+      { nome: "HBO MAX", url: "https://embedtv-4.icu/hbo" }
     ]
   },
   {
