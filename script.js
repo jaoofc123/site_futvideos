@@ -2,7 +2,7 @@ const LOGINS = [
   { username: "admjao", password: "am90YXAxMjM=" },
   { username: "pedro", password: "UGVkcm9IMTIz" }, //PedroH123
   { username: "luiz", password: "THVpejEyMw==" }, //Luiz123
-  { username: "lucca",  password: "YWFhYQ==" }, //Lucca2025
+  { username: "lucca",  password: "THVjY2EyMDI1" }, //Lucca2025
   { username: "nome3", password: "ZXVtdWRvMTIz" }, //
   { username: "nome4", password: "ZXVtdWRvMTIz" },    //
   { username: "nome5", password: "ZXVtdWRvMTIz" },    //
