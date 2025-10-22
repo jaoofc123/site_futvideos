@@ -17,12 +17,12 @@ const SESSION_KEY = "xfut_session";
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
     {
-    nome: "Jogos da CHAMPIONS LEAGUE (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
+    nome: "Flamengo VS Racing",
     inicio: null,
     opcoes: [
-      { nome: "SBT", url: "https://embedtv-4.icu/sbt" },
-      { nome: "TNT", url: "https://embedtv-4.icu/tnt" },
-      { nome: "HBO MAX", url: "https://embedtv-4.icu/hbo" }
+      { nome: "Globo SP", url: "https://embedtv-4.icu/globosp" },
+      { nome: "Globo RJ", url: "https://embedtv-4.icu/globorj" },
+      { nome: "GloboPlay", url: "https://globoplay.globo.com/" }
     ]
   },
   {
@@ -53,6 +53,15 @@ const jogos = [
       { nome: "GloboPlay", url: "https://globoplay.globo.com/" },
       { nome: "GETV", url: "https://www.youtube.com/geglobo" },
       { nome: "CazéTV", url: "https://www.youtube.com/cazetv" }
+    ]
+  },
+    {
+    nome: "Jogos da CHAMPIONS LEAGUE (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
+    inicio: null,
+    opcoes: [
+      { nome: "SBT", url: "https://embedtv-4.icu/sbt" },
+      { nome: "TNT", url: "https://embedtv-4.icu/tnt" },
+      { nome: "HBO MAX", url: "https://embedtv-4.icu/hbo" }
     ]
   },
   {
