@@ -18,8 +18,8 @@ const SESSION_KEY = "xfut_session";
 const jogos = [
     {
     nome: "Flamengo VS Racing",
-    inicio: null,
-    opcoes: [
+    inicio: "2025-10-22T21:30:00",
+      opcoes: [
       { nome: "Globo SP", url: "https://embedtv-4.icu/globosp" },
       { nome: "Globo RJ", url: "https://embedtv-4.icu/globorj" },
       { nome: "GloboPlay", url: "https://globoplay.globo.com/" }
