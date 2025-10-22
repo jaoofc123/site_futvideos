@@ -16,6 +16,13 @@ const SESSION_KEY = "xfut_session";
 
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
+      {
+    nome: "NOSSO SISTEMA ESTA FORA DO AR, ESTAMOS TRABALHANDO PARA COLOCAR TUDO NO LUGAR!!!",
+    inicio: null,
+      opcoes: [
+      { nome: "PREVISÃO DE VOLTA: 24/10", url: "" }
+    ]
+  },
     {
     nome: "Flamengo VS Racing",
     inicio: "2025-10-22T21:30:00",
