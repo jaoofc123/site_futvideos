@@ -16,13 +16,6 @@ const SESSION_KEY = "xfut_session";
 
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
-      {
-    nome: "TESTE",
-    inicio: null,
-      opcoes: [
-      { nome: "SPORTV", url: "https://z3r0.site/sportv/" },
-    ]
-  },
     {
     nome: "LDU VS Palmeiras",
     inicio: "2025-10-23T21:30:00",
