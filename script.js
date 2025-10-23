@@ -16,20 +16,16 @@ const SESSION_KEY = "xfut_session";
 
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
-      {
-    nome: "NOSSO SISTEMA ESTA FORA DO AR, ESTAMOS TRABALHANDO PARA COLOCAR TUDO NO LUGAR!!!",
-    inicio: null,
-      opcoes: [
-      { nome: "PREVISÃO DE VOLTA: 24/10", url: "" }
-    ]
-  },
     {
-    nome: "Flamengo VS Racing",
-    inicio: "2025-10-22T21:30:00",
+    nome: "LDU VS Palmeiras",
+    inicio: "2025-10-23T21:30:00",
       opcoes: [
-      { nome: "Globo SP", url: "https://embedtv-4.icu/globosp" },
-      { nome: "Globo RJ", url: "https://embedtv-4.icu/globorj" },
-      { nome: "GloboPlay", url: "https://globoplay.globo.com/" }
+      { nome: "ESPN", url: "https://embedtv-4.icu/espn" },
+      { nome: "ESPN 2", url: "https://embedtv-4.icu/espn2" },
+      { nome: "ESPN 3", url: "https://embedtv-4.icu/espn3" },
+      { nome: "ESPN 4", url: "https://embedtv-4.icu/espn4" },
+      { nome: "ESPN 5", url: "https://embedtv-4.icu/espn5" },
+      { nome: "ESPN 6", url: "https://embedtv-4.icu/espn6" }
     ]
   },
   {
