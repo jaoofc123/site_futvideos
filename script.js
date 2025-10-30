@@ -16,11 +16,17 @@ const SESSION_KEY = "xfut_session";
 
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
-    {
-    nome: "LDU VS Palmeiras",
+      {
+    nome: "SITE COM INSTABILIDADE(FORA DO AR)",
     inicio: "2025-10-23T21:30:00",
       opcoes: [
-      { nome: "ESPN", url: "https://embedtv-4.icu/espn" },
+      { nome: "UNICO FUNCINANDO PALMEIRAS", url: "https://embedtv-4.icu/espn" }
+  },
+    {
+    nome: "Palmeiras VS LDU",
+    inicio: "2025-10-30T21:30:00",
+      opcoes: [
+      { nome: "ESPN (FUNCIOANDO)", url: "https://embedtv-4.icu/espn" },
       { nome: "ESPN 2", url: "https://embedtv-4.icu/espn2" },
       { nome: "ESPN 3", url: "https://embedtv-4.icu/espn3" },
       { nome: "ESPN 4", url: "https://embedtv-4.icu/espn4" },
