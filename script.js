@@ -26,7 +26,7 @@ const jogos = [
     nome: "Palmeiras VS LDU",
     inicio: "2025-10-30T21:30:00",
       opcoes: [
-      { nome: "ESPN (FUNCIOANDO)", url: "https://embedtv-4.icu/espn" },
+      { nome: "ESPN (FUNCIOANDO)", url: "https://redecanaistv.lc/assistir-espn-online-24-horas-ao-vivo_d1dcae581.html" },
       { nome: "ESPN 2", url: "https://embedtv-4.icu/espn2" },
       { nome: "ESPN 3", url: "https://embedtv-4.icu/espn3" },
       { nome: "ESPN 4", url: "https://embedtv-4.icu/espn4" },
