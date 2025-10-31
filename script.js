@@ -18,9 +18,9 @@ const SESSION_KEY = "xfut_session";
 const jogos = [
       {
     nome: "SITE COM INSTABILIDADE(FORA DO AR)",
-    inicio: "2025-10-23T21:30:00",
+    inicio: null,
       opcoes: [
-      { nome: "UNICO FUNCINANDO PALMEIRAS", url: "https://embedtv-4.icu/espn" }
+      { nome: "UNICO FUNCINANDO PALMEIRAS VS LDU", url: "" }
   },
     {
     nome: "Palmeiras VS LDU",
