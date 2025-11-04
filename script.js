@@ -25,7 +25,6 @@ const jogos = [
   },
    {
     nome: "Jogos do Brasileirão (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
-    nome: "SITE FORA DO AR",
     inicio: null,
     opcoes: [
       { nome: "SporTV", url: "https://embedtv-4.icu/sportv" },
