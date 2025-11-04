@@ -17,62 +17,19 @@ const SESSION_KEY = "xfut_session";
 // Lista de jogos e opções (agora com data e hora exata de início)
 const jogos = [
     {
-    nome: "SITE FORA DO AR",
+    nome: "FECHAMOS UMA PARCERIA",
     inicio: null,
     opcoes: [
-      { nome: "ESTAMOS TRABALHANDO PARA RESTABELECER O SINAL", url: "https://jaoofc123.github.io/xfut/" }
+      { nome: "APARTIR DE AGORA DISPONIBILIZAREMOS O REDE CANAIS PRA VOCÊS. COM + DE 500 CANAIS.", url: "https://jaoofc123.github.io/xfut/" }
     ]
   },
-   {
-    nome: "Jogos do Brasileirão (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
+      {
+    nome: "Rede Canais",
     inicio: null,
     opcoes: [
-      { nome: "SporTV", url: "https://embedtv-4.icu/sportv" },
-      { nome: "SporTV 2", url: "https://embedtv-4.icu/sportv2" },
-      { nome: "SporTV 3", url: "https://embedtv-4.icu/sportv3" },
-      { nome: "SporTV 4", url: "https://embedtv-4.icu/sportv4" },
-      { nome: "Premiere 1", url: "https://embedtv-4.icu/premiere" },
-      { nome: "Premiere 2", url: "https://embedtv-4.icu/premiere2" },
-      { nome: "Premiere 3", url: "https://embedtv-4.icu/premiere3" },
-      { nome: "Premiere 4", url: "https://embedtv-4.icu/premiere4" },
-      { nome: "Premiere 5", url: "https://embedtv-4.icu/premiere5" },
-      { nome: "Premiere 6", url: "https://embedtv-4.icu/premiere6" },
-      { nome: "Premiere 7", url: "https://embedtv-4.icu/premiere7" },
-      { nome: "Premiere 8", url: "https://embedtv-4.icu/premiere8" },
-      { nome: "ESPN", url: "https://embedtv-4.icu/espn" },
-      { nome: "ESPN 2", url: "https://embedtv-4.icu/espn2" },
-      { nome: "ESPN 3", url: "https://embedtv-4.icu/espn3" },
-      { nome: "ESPN 4", url: "https://embedtv-4.icu/espn4" },
-      { nome: "ESPN 5", url: "https://embedtv-4.icu/espn5" },
-      { nome: "ESPN 6", url: "https://embedtv-4.icu/espn6" },
-      { nome: "Prime Video", url: "https://embedtv-4.icu/primevideo" },
-      { nome: "Prime Video 2", url: "https://embedtv-4.icu/primevideo2" },
-      { nome: "Record TV", url: "https://embedtv-4.icu/record" },
-      { nome: "GloboPlay", url: "https://globoplay.globo.com/" },
-      { nome: "GETV", url: "https://www.youtube.com/geglobo" },
-      { nome: "CazéTV", url: "https://www.youtube.com/cazetv" }
+      { nome: "CLIQUE AQUI", url: "https://redecanaistv.lc/" }
     ]
   },
-    {
-    nome: "Jogos da CHAMPIONS LEAGUE (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
-    inicio: null,
-    opcoes: [
-      { nome: "SBT", url: "https://embedtv-4.icu/sbt" },
-      { nome: "TNT", url: "https://embedtv-4.icu/tnt" },
-      { nome: "HBO MAX", url: "https://embedtv-4.icu/hbo" }
-    ,]
-  },
-  {
-    nome: "Canais Fixos",
-    inicio: null,
-    opcoes: [
-      { nome: "UFC", url: "https://embedtv-4.icu/ufcfightpass" },
-      { nome: "Globo SP", url: "https://embedtv-4.icu/globosp" },
-      { nome: "Globo RJ", url: "https://embedtv-4.icu/globorj" },
-      { nome: "SBT", url: "https://embedtv-4.icu/sbt" },
-      { nome: "Record TV", url: "https://embedtv-4.icu/record" }
-    ]
-  }
 ];
 
 const intervalosJogos = {};
