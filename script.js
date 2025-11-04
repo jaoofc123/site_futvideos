@@ -29,7 +29,7 @@ const jogos = [
     opcoes: [
       { nome: "CLIQUE AQUI", url: "https://redecanaistv.lc/" }
     ]
-  },
+  }
 ];
 
 const intervalosJogos = {};
