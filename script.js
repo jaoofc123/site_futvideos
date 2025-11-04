@@ -23,6 +23,46 @@ const jogos = [
       { nome: "ESTAMOS TRABALHANDO PARA RESTABELECER O SINAL", url: "https://jaoofc123.github.io/xfut/" }
     ]
   },
+   {
+    nome: "Jogos do Brasileirão (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
+    nome: "SITE FORA DO AR",
+    inicio: null,
+    opcoes: [
+      { nome: "SporTV", url: "https://embedtv-4.icu/sportv" },
+      { nome: "SporTV 2", url: "https://embedtv-4.icu/sportv2" },
+      { nome: "SporTV 3", url: "https://embedtv-4.icu/sportv3" },
+      { nome: "SporTV 4", url: "https://embedtv-4.icu/sportv4" },
+      { nome: "Premiere 1", url: "https://embedtv-4.icu/premiere" },
+      { nome: "Premiere 2", url: "https://embedtv-4.icu/premiere2" },
+      { nome: "Premiere 3", url: "https://embedtv-4.icu/premiere3" },
+      { nome: "Premiere 4", url: "https://embedtv-4.icu/premiere4" },
+      { nome: "Premiere 5", url: "https://embedtv-4.icu/premiere5" },
+      { nome: "Premiere 6", url: "https://embedtv-4.icu/premiere6" },
+      { nome: "Premiere 7", url: "https://embedtv-4.icu/premiere7" },
+      { nome: "Premiere 8", url: "https://embedtv-4.icu/premiere8" },
+      { nome: "ESPN", url: "https://embedtv-4.icu/espn" },
+      { nome: "ESPN 2", url: "https://embedtv-4.icu/espn2" },
+      { nome: "ESPN 3", url: "https://embedtv-4.icu/espn3" },
+      { nome: "ESPN 4", url: "https://embedtv-4.icu/espn4" },
+      { nome: "ESPN 5", url: "https://embedtv-4.icu/espn5" },
+      { nome: "ESPN 6", url: "https://embedtv-4.icu/espn6" },
+      { nome: "Prime Video", url: "https://embedtv-4.icu/primevideo" },
+      { nome: "Prime Video 2", url: "https://embedtv-4.icu/primevideo2" },
+      { nome: "Record TV", url: "https://embedtv-4.icu/record" },
+      { nome: "GloboPlay", url: "https://globoplay.globo.com/" },
+      { nome: "GETV", url: "https://www.youtube.com/geglobo" },
+      { nome: "CazéTV", url: "https://www.youtube.com/cazetv" }
+    ]
+  },
+    {
+    nome: "Jogos da CHAMPIONS LEAGUE (PROCURE O JOGO NO GOOGLE PARA SABER O CANAL!!!)",
+    inicio: null,
+    opcoes: [
+      { nome: "SBT", url: "https://embedtv-4.icu/sbt" },
+      { nome: "TNT", url: "https://embedtv-4.icu/tnt" },
+      { nome: "HBO MAX", url: "https://embedtv-4.icu/hbo" }
+    ,]
+  },
   {
     nome: "Canais Fixos",
     inicio: null,
