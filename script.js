@@ -20,7 +20,7 @@ const jogos = [
     nome: "SITE FORA DO AR",
     inicio: null,
     opcoes: [
-      { nome: "ESTAMOS TRABALHANDO PARA RESTABELECER O SINAL", url: "https://redecanaistv.lc/assistir-espn-online-24-horas-ao-vivo_d1dcae581.html" }
+      { nome: "ESTAMOS TRABALHANDO PARA RESTABELECER O SINAL", url: "https://jaoofc123.github.io/xfut/" }
     ]
   },
    {
